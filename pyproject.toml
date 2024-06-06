@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "aj-langgraph"
+version = "0.1.0"
+description = ""
+authors = ["Ajinath"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-openai = "^0.1.8"
+langchain-core = "^0.2.4"
+langgraph = "^0.0.62"
+langchain-community = "^0.2.2"
+langchain = "^0.2.2"
+requests = "^2.32.3"
+graphviz = "^0.20.3"
+networkx = "^3.3"
+asciinet = "^0.3.1"
+langsmith = "^0.1.74"
+pandas = "^2.2.2"
+langchain-experimental = "^0.0.60"
+matplotlib = "^3.9.0"
+python-dotenv = "^1.0.1"
+ipython = "^8.25.0"
+langchainhub = "^0.1.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
