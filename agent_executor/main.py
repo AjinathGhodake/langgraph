@@ -71,7 +71,7 @@ workflow.add_conditional_edges(
 workflow.add_edge("action", "agent")
 app = workflow.compile()
 print(app.get_graph().draw_mermaid())
-# display(Image(app.get_graph(xray=True).draw_mermaid_png()))
+
 inputs = {"input": "what is wether in maharashtra  pune", "chat_history": []}
 
 for s in app.stream(inputs):
