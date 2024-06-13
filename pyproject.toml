@@ -23,6 +23,8 @@ matplotlib = "^3.9.0"
 python-dotenv = "^1.0.1"
 ipython = "^8.25.0"
 langchainhub = "^0.1.17"
+langchain-groq = "^0.1.5"
+pydantic = "^2.7.4"
 
 
 [build-system]
